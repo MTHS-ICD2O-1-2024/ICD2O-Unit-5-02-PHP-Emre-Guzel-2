@@ -37,15 +37,15 @@
         <?php
 
         // Setting the varibles
-        $fahrenheitValue = $_GET["fahrenheit"];
-        $celsiusInput = ["celsius"];
-        // Calculatoin 
-        $celsiusValue = ($fahrenheitValue - 32) * 5 / 9;
-        $celsiusInput = round($celsiusValue, 3);
-        "<br>";
-        "<br>";
-        echo "If fahrenheit is: " . $fahrenheitValue . "<br>";
-        echo "Celsius is: " . $celsiusInput;
+        $positiveNumber = $_GET["positive-number"];
+        $randomNumberPositive = mt_rand(1, 6);
+        $randomNumberNegative = mt_rand(-6,-1);
+        // setting if and else satements 
+        if ($positiveNumber == true) {
+          echo ("The random number is: " . $randomNumberPositive);
+        } else {
+          echo ("The random number is: " . $randomNumberNegative );
+        }
         ?>
         <br /> <br>
         <div class="page-content-answer">

@@ -33,7 +33,8 @@
       </header>
       <br>
       <form action="answer.php" method="GET">
-        <p class="Fahrenheit">Select what kind of number you would like?</p>
+        <b>
+          <p class="Fahrenheit">Select what kind of number you would like?</p></b>
         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="positive">
           <input type="radio" id="positive" class="mdl-radio__button" name="positive-number" value="1">
           <span class="mdl-radio__label">Positive </span>
