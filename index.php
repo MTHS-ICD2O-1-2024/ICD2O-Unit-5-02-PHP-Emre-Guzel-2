@@ -27,18 +27,19 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Select what kind of number you would like?
+          <span class="mdl-layout-title">Positive or Negative#
           </span>
         </div>
       </header>
+      <br>
       <form action="answer.php" method="GET">
-        <p class="Fahrenheit"> Fahrenheit:</p>
+        <p class="Fahrenheit">Select what kind of number you would like?</p>
         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="positive">
-          <input type="radio" id="positive" class="mdl-radio__button" name="positive-number" value="1" >
+          <input type="radio" id="positive" class="mdl-radio__button" name="positive-number" value="1">
           <span class="mdl-radio__label">Positive </span>
         </label>
         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="negative">
-          <input type="radio" id="negative" class="mdl-radio__button" name="negative-number" value="2" >
+          <input type="radio" id="negative" class="mdl-radio__button" name="negative-number" value="2">
           <span class="mdl-radio__label">Negative</span>
         </label>
         <br><br>
