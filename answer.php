@@ -52,9 +52,6 @@
           <a href="./index.php">Return ...</a>
         </div>
         <br>
-        <div class="tempurature">
-          <img src="images/positive_negative.jpg" alt="tempurature">
-        </div>
       </main>
     </div>
 

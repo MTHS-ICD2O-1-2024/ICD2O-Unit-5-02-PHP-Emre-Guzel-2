@@ -19,7 +19,8 @@ body {
   margin-left: 10rem;
   display: flex;
 }
-.container-2{
+
+.container-2 {
   margin-left: 5rem;
 }
 
@@ -42,6 +43,7 @@ body {
 }
 
 .Calculate {
+  width: 27%;
   text-align: center;
   margin-top: 6vw;
   margin-left: 60vw;
@@ -81,12 +83,11 @@ body {
 .Fahrenheit {
   font-size: 1.3rem;
 }
-.tempurature{
-text-align: center;
+
+.tempurature {
+  width: 27%;
+  text-align: center;
   margin-top: 6vw;
   margin-left: 60vw;
   margin-top: 10rem;
-}
-img{
-  width: 20%;
 }
