@@ -53,7 +53,7 @@
         </div>
         <br>
         <div class="tempurature">
-          <img src="images/temperature.png" alt="tempurature">
+          <img src="images/positive_negative.jpg" alt="tempurature">
         </div>
       </main>
     </div>

@@ -42,7 +42,6 @@ body {
 }
 
 .Calculate {
-  width: 27%;
   text-align: center;
   margin-top: 6vw;
   margin-left: 60vw;
@@ -83,8 +82,11 @@ body {
   font-size: 1.3rem;
 }
 .tempurature{
-  width: 27%;
-  text-align: center;
-  margin-left: 52vw;
-  margin-top: -11%;
+text-align: center;
+  margin-top: 6vw;
+  margin-left: 60vw;
+  margin-top: 10rem;
+}
+img{
+  width: 20%;
 }

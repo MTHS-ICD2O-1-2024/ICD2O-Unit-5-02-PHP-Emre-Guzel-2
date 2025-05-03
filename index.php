@@ -52,8 +52,8 @@
         </main>
       </form>
     </div>
-    <br>
-    <img class="Calculate" src="images/temperature.png" alt="Tempurature">
+    <br><br>
+    <img class="Calculate" src="images/positive_negative.jpg" alt="Tempurature">
   </div>
 </body>
 
